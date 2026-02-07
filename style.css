@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400&display=swap');
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+}
+
+body{
+height:100vh;
+background: linear-gradient(135deg,#f3d5b5,#ddb892,#ffc8dd);
+display:flex;
+justify-content:center;
+align-items:center;
+overflow:hidden;
+}
+
+.card{
+width:100%;
+max-width:420px;
+padding:25px;
+text-align:center;
+}
+
+h1{
+font-family:Pacifico;
+color:#6b3e26;
+margin-bottom:15px;
+}
+
+p{
+color:#6b3e26;
+margin:10px 0;
+font-size:16px;
+}
+
+.gif{
+width:220px;
+border-radius:15px;
+margin:15px 0;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 28px;
+background:#ffafcc;
+color:white;
+text-decoration:none;
+border-radius:30px;
+}
+
+.hidden{
+display:none;
+}
+
+/* TEDDY INTERACTION */
+.teddyArea{
+height:260px;
+position:relative;
+}
+
+.teddy{
+position:absolute;
+left:50%;
+top:50%;
+transform:translate(-50%,-50%);
+font-size:90px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.sign{
+margin-top:20px;
+font-size:14px;
+}
+
